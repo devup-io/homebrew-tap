@@ -9,22 +9,22 @@ class Prov < Formula
   on_macos do
     on_arm do
       url "https://github.com/devup-io/prov/releases/download/v0.1.221/provenly-darwin-arm64"
-      sha256 "911c64d4bf0e5711cedba698709321aad0968934fef9544475ec48470ae5a212"
+      sha256 "25308cef7097a1d3892e7697be5cc764be8ae98031100ec6a98145e1efcfab15"
     end
     on_intel do
       url "https://github.com/devup-io/prov/releases/download/v0.1.221/provenly-darwin-amd64"
-      sha256 "bc5716d5158da20893433292b5292bbc60419114aff69c56d8445c1ab91ce6e7"
+      sha256 "bc001ebfabde3775de66ed40c9898f7717f6d04ef4a41272cf76939a4f66d72a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/devup-io/prov/releases/download/v0.1.221/provenly-linux-arm64"
-      sha256 "0d1ac553e733ae2c9a9bd1748839e945dabb16a7915854afae79a31d15e8c98b"
+      sha256 "98005d3ff0bdec312d0d8532c44834c0dd1bee5c61e82da99d4537c1b9d8bab6"
     end
     on_intel do
       url "https://github.com/devup-io/prov/releases/download/v0.1.221/provenly-linux-amd64"
-      sha256 "9b7b91524c16281eb37a539e6d116df52a06061d54ec7bdc83e44238ad83ec89"
+      sha256 "c2a5091ec27159006377ec3c2713709a71748385bea3a208d54f17ce599199a8"
     end
   end
 
