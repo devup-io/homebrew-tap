@@ -1,28 +1,28 @@
 class Prov < Formula
   desc "Provenly CLI - developer intelligence at your fingertips"
   homepage "https://provenly.live"
-  version "0.1.3"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/devup-io/provenly-releases/releases/download/v0.1.3/provenly-darwin-arm64"
-      sha256 "fb07b85122c0d8db3404fd0c3c82e8df9f15b550bfb694c7140f2687adc198f3"
+      url "https://github.com/devup-io/provenly-releases/releases/download/v1.0.0/provenly-darwin-arm64"
+      sha256 "b1a0821bc36b42a3049ec89e884f1e1897c4a7c76c7480148672a4419b084c2d"
     end
     on_intel do
-      url "https://github.com/devup-io/provenly-releases/releases/download/v0.1.3/provenly-darwin-amd64"
-      sha256 "8ec0f4aeb82de124fcae1769fcc7ec7b58ef4cb8f0497c1a53d2714ee298f877"
+      url "https://github.com/devup-io/provenly-releases/releases/download/v1.0.0/provenly-darwin-amd64"
+      sha256 "f6b17c852679f4af4afd385014df8ccf2093235d9c28042181209fbe670e8c5a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/devup-io/provenly-releases/releases/download/v0.1.3/provenly-linux-arm64"
-      sha256 "69d6f426554bba991d0c2b313980932f50dc8b00b6696bc95cd0ac591e80e374"
+      url "https://github.com/devup-io/provenly-releases/releases/download/v1.0.0/provenly-linux-arm64"
+      sha256 "fc863359bedf7877645542423d0aa994ac10efeb030adcae5cab2e3be5cf72fc"
     end
     on_intel do
-      url "https://github.com/devup-io/provenly-releases/releases/download/v0.1.3/provenly-linux-amd64"
-      sha256 "d343b404b664d1ee8d19726d4eab9d809e49f0d188408ee9afc43d27b349d186"
+      url "https://github.com/devup-io/provenly-releases/releases/download/v1.0.0/provenly-linux-amd64"
+      sha256 "6683f5406a5daab1d757d36476a102a4800e7a80f93aa9972a0095374b9ef5df"
     end
   end
 
